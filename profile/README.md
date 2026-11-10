@@ -16,12 +16,19 @@ agent can rewrite it for another framework.
 
 ### The four repositories
 
-|                                                                  |                                                                                                                                                                                                                                                                                    |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[base](https://github.com/samebase/base)**                     | **Start here.** The starter template. Add one secret, `CONVEX_ACCESS_TOKEN`, and push. About a minute later the app is live, with pull request previews and Google sign-in. No Samebase account.                                                                                    |
-| **[identity-hub](https://github.com/samebase/identity-hub)**     | **Sign-in for every deployment.** Google and GitHub want each callback URL registered by hand, so a preview cannot sign in. The hub registers each deployment when it deploys. Use ours at `id.samebase.com`, or run your own from this template.                                    |
-| **[convex-hosting](https://github.com/samebase/convex-hosting)** | **One host.** A Convex component that serves the app's files and its server-rendered pages from the deployment that runs the backend.                                                                                                                                                |
-| **[samebase](https://github.com/samebase/samebase)**             | **The dashboard and the packages.** The source of [samebase.com](https://samebase.com), which shows each app's URL, deployed commit, checks, and previews, and of the two packages below.                                                                                           |
+- **[base](https://github.com/samebase/base): start here.** The starter template. Add one secret,
+  `CONVEX_ACCESS_TOKEN`, and push. About a minute later the app is live, with pull request
+  previews and Google sign-in. No Samebase account.
+- **[identity-hub](https://github.com/samebase/identity-hub): sign-in for every deployment.**
+  Google and GitHub want each callback URL registered by hand, so a preview cannot sign in. The hub
+  registers each deployment when it deploys. Use ours at `id.samebase.com`, or run your own from
+  this template.
+- **[convex-hosting](https://github.com/samebase/convex-hosting): one host.** A Convex component
+  that serves the app's files and its server-rendered pages from the deployment that runs the
+  backend.
+- **[samebase](https://github.com/samebase/samebase): the dashboard and the packages.** The source
+  of [samebase.com](https://samebase.com), which shows each app's URL, deployed commit, checks, and
+  previews, and of the first two packages below.
 
 ### The packages
 
