@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 604" width="1200" height="604" role="img" aria-label="A push to your GitHub repository runs Alchemy in GitHub Actions. Alchemy deploys to your Convex team: production and one preview per pull request, each serving the backend and the site. The identity hub gives each deployment its own sign-in client. samebase.com reads the Alchemy state and shows what is deployed.">
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#9aa5ad"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="604" fill="#0d1117"/>
+
+  <rect x="690" y="28" width="482" height="96" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+  <text x="710" y="60" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#e6edf3">identity-hub</text>
+  <text x="710" y="88" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Sign in with Google and GitHub</text>
+  <text x="710" y="111" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">one sign-in client for each deployment</text>
+  <line x1="931" y1="124" x2="931" y2="184" stroke="#9aa5ad" stroke-width="2" marker-end="url(#head)"/>
+
+  <rect x="28" y="214" width="250" height="150" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+  <text x="48" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#e6edf3">base</text>
+  <text x="48" y="276" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Your repository</text>
+  <text x="48" y="304" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">the app, alchemy.run.ts,</text>
+  <text x="48" y="327" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">and one secret</text>
+
+  <line x1="278" y1="289" x2="352" y2="289" stroke="#9aa5ad" stroke-width="2" marker-end="url(#head)"/>
+  <text x="288" y="276" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">push</text>
+
+  <rect x="358" y="214" width="250" height="150" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+  <text x="378" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#e6edf3">alchemy-convex</text>
+  <text x="378" y="276" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">GitHub Actions</text>
+  <text x="378" y="304" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">Alchemy deploys the</text>
+  <text x="378" y="327" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">stage of the branch</text>
+
+  <line x1="608" y1="289" x2="684" y2="289" stroke="#9aa5ad" stroke-width="2" marker-end="url(#head)"/>
+
+  <rect x="690" y="190" width="482" height="250" fill="#161b22" stroke="#9aa5ad" stroke-width="2"/>
+  <text x="710" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#e6edf3">convex-hosting</text>
+  <text x="710" y="250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">Your Convex team</text>
+  <rect x="706" y="268" width="132" height="76" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+    <text x="772" y="300" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#e6edf3">prod</text>
+    <text x="772" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#9aa5ad">main</text>
+  <rect x="854" y="268" width="132" height="76" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+    <text x="920" y="300" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#e6edf3">pr-12</text>
+    <text x="920" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#9aa5ad">preview</text>
+  <rect x="1002" y="268" width="132" height="76" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+    <text x="1068" y="300" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#e6edf3">pr-13</text>
+    <text x="1068" y="325" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#9aa5ad">preview</text>
+  <text x="710" y="378" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">each one runs the backend and serves the site</text>
+  <rect x="706" y="392" width="450" height="34" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+  <text x="722" y="415" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#e6edf3">alchemy-state-store</text>
+  <text x="1140" y="415" text-anchor="end" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#9aa5ad">what is deployed, and where</text>
+
+  <line x1="931" y1="440" x2="931" y2="474" stroke="#9aa5ad" stroke-width="2" marker-end="url(#head)" stroke-dasharray="6 6"/>
+  <rect x="690" y="480" width="482" height="96" fill="#0d1117" stroke="#9aa5ad" stroke-width="2"/>
+  <text x="710" y="512" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" fill="#e6edf3">samebase</text>
+  <text x="710" y="540" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#e6edf3">The dashboard at samebase.com</text>
+  <text x="710" y="563" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#9aa5ad">reads the state: URL, commit, checks, previews</text>
+</svg>
